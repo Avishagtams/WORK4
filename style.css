@@ -1,0 +1,183 @@
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page {
+    width: 1200px;
+    margin: 0 auto; 
+    border: 3px solid black;
+    font-family: Arial, sans-serif;
+    direction: rtl;
+  }
+  
+  nav {
+    background-color: hsl(201, 21%, 18%);
+    color: #000;
+    padding: 10px;
+
+  }
+  
+  nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+
+  }
+  nav a .main-icon {
+    display: inline-block;
+    vertical-align: middle; 
+    width: 25px;            
+    height: 25px;
+    margin-left: 9px;  
+    margin-top: 6px;
+     
+  }
+  nav span {
+    color: rgb(122, 120, 120);
+  }
+  
+  .c1 { text-decoration: underline; text-decoration-color: #a81c24; text-decoration-thickness: 2px; }
+  .c2 { text-decoration: underline; text-decoration-color: #ff8c00ef; text-decoration-thickness: 2px; }
+  .c3 { text-decoration: underline; text-decoration-color: #298c88ef; text-decoration-thickness: 2px; }
+  .c4 { text-decoration: underline; text-decoration-color: #a28d2def; text-decoration-thickness: 2px; }
+  .c5 { text-decoration: underline; text-decoration-color: #d9943fef; text-decoration-thickness: 2px; }
+  .c6 { text-decoration: underline; text-decoration-color: #298c88ef; text-decoration-thickness: 2px; }
+  .c7 { text-decoration: underline; text-decoration-color: #a28d2def; text-decoration-thickness: 2px; }
+  .c8 { text-decoration: underline; text-decoration-color: #34653cef; text-decoration-thickness: 2px; }
+  .c9 { text-decoration: underline; text-decoration-color: #2fbcb0ef; text-decoration-thickness: 2px; }
+  .c10 { text-decoration: underline; text-decoration-color: #74701eef; text-decoration-thickness: 2px; }
+  .c11 { text-decoration: underline; text-decoration-color: #dc900def; text-decoration-thickness: 2px; }
+  .c12 { text-decoration: underline; text-decoration-color: #2fbcb0ef; text-decoration-thickness: 2px; }
+  .c13 { text-decoration: underline; text-decoration-color: #b3bc2fef; text-decoration-thickness: 2px; }
+  
+  header {
+    position: relative;
+    height: 70px;
+    border-bottom: 1.5px solid #504a4a;
+    top: 0px;
+  }
+  /* מבזקים */
+  header .logo {
+    position: absolute;
+    top: 38px;
+    right: 50px;
+    background-color: #a81c24;
+    color: white;
+    font-weight: bold;
+    padding: 4px 12px;
+    font-size: 20px;
+  }
+  header .logo-icon {
+  position: absolute;
+  top: 28px;
+  width: 50px;
+  height: 50px;
+}
+  /* לכל המבזקים */
+  header .all-link {
+    position: absolute;
+    top: 45px;
+    left: 30px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  /* חץ */
+  header .arrow-icon {
+    position: absolute;
+    top: 45px;
+    left: 10px;
+
+    width: 20px;
+    height: 20px;
+  }
+  /* הפס חצים */
+  section {
+    display: flow-root; 
+    border-bottom: 4px solid #443f3f;
+    padding: 10px 0;
+    position: relative; 
+  }
+  
+  section .card {
+    float: right;
+    width: 16.66%; 
+    padding: 8px;
+    font-size: 12px;
+    border-left: 1px solid #eee;
+  }
+  
+  section .card .time {
+    display: inline-block;
+    background: #a81c24;
+    color: white;
+    padding: 2px 6px;
+    font-weight: bold;
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+section .arrow-icon-2 {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  width: 50px;
+  height: 40px;
+}
+  article {
+    display: flow-root;
+    padding: 20px;
+  }
+  
+  article .article-image {
+    float: left;
+    width: 45%;
+  }
+  
+  article .article-content {
+    width: 48%;
+  }
+  
+article .tag {
+  background-color: #a81c24;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 3px 8px;
+}
+
+article h1,h2 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+article h1 span {
+  background-color:  hsl(201, 21%, 18%); 
+  color: white;              
+  padding: 2px 6px;         
+}
+article h2 span {
+  background-color:  hsl(201, 21%, 18%); 
+  color: white;              
+  padding: 2px 6px;         
+}
+  
+  article p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  article .byline {
+    clear: both;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #777;
+  }
